@@ -1,18 +1,8 @@
-// src/App.js
-import React from 'react';
-import ProductList from './components/ProductList';
-import ProductForm from './components/ProductForm';
-import './index.css';
-
-
 const App = () => {
   return (
-    <div>
-      <h1>Welcome to the Ecommerce Platform</h1>
-      <ProductForm />
-      <ProductList />
+    <div className="flex items-center justify-center h-screen bg-gray-100">
+      <h1 className="text-3xl font-bold text-blue-500">Hello, Tailwind!</h1>
     </div>
   );
 };
-
 export default App;

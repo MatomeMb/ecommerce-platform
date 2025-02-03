@@ -1,8 +1,8 @@
-// frontend/next.config.js
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    // Remove turboMode here
+  },
+};
 
-module.exports = {
-    experimental: {
-      turboMode: false,  // Disable Turbopack
-    },
-  };
-  
+module.exports = nextConfig;
